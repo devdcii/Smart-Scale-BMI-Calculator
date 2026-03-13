@@ -1,0 +1,108 @@
+# =========================
+# Flutter / Dart
+# =========================
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+*.iml
+*.ipr
+*.iws
+.idea/
+*.class
+*.log
+*.pyc
+*.swp
+migrate_working_dir/
+
+# Flutter generated files
+lib/generated_plugin_registrant.dart
+
+# Dart build output
+*.dart.js
+*.part.js
+*.js.deps
+*.js.map
+*.info.json
+
+# Hive local database files
+*.hive
+*.lock
+
+# =========================
+# Android
+# =========================
+**/android/app/debug
+**/android/app/profile
+**/android/app/release
+**/android/.gradle
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+**/android/key.properties
+**/*.keystore
+**/*.jks
+
+# =========================
+# iOS
+# =========================
+**/ios/.generated/
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/ephemeral/
+**/ios/Flutter/flutter_assets/
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.*
+**/ios/Podfile.lock
+**/ios/Pods/
+
+# =========================
+# Arduino / ESP32
+# =========================
+
+# Arduino build output
+**/firmware/build/
+**/.arduino15/
+**/firmware/**/*.elf
+**/firmware/**/*.hex
+**/firmware/**/*.bin
+**/firmware/**/*.map
+
+# WiFi credentials - NEVER commit these
+**/firmware/secrets.h
+**/firmware/wifi_config.h
+
+# =========================
+# IDE / Editors
+# =========================
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+
+# =========================
+# Misc
+# =========================
+*.zip
+*.tar.gz
+*.rar
